@@ -1,0 +1,482 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 54px 134.5px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation_panel {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.list_navbar {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.list_navbar>li>a {
+    text-decoration: none;
+    font-family: Rubik;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.33px;
+    color: #363853;
+}
+
+.home_default {
+    color: #ff7a50;
+}
+
+.buyer_wrapper {
+    position: relative;
+}
+
+.buy_count {
+    width: 14px;
+    height: 14px;
+    background-color: #ff7a50;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    top: -5px;
+    right: -5px;
+}
+
+.buy_count>p {
+    font-family: Rubik;
+    font-size: 10px;
+    font-weight: 400;
+    color: white;
+}
+
+.btn_signUp {
+    width: 120px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    background-color: #ff7a50;
+    font-family: Rubik;
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    box-shadow: 0 22px 40px 0 #FF683830;
+}
+
+.home_default {
+    color: #ff7a50;
+}
+
+.showcase {
+    margin-top: 104.77px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.show_text {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+.show_text>h1 {
+    font-family: Rubik;
+    font-size: 66px;
+    font-weight: 500;
+    line-height: 78.21px;
+    text-align: left;
+    color: #363853;
+}
+
+.main_start_span {
+    font-family: Rubik;
+    font-size: 66px;
+    font-weight: 500;
+    line-height: 78.21px;
+    text-align: left;
+    color: #FF7A50;
+}
+
+
+.show_text>p {
+    margin-top: 23px;
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: #363853;
+}
+
+.two_btn_main {
+    margin-top: 44.78px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.two_btn_main>button {
+    width: 163px;
+    height: 50.41px;
+    border-radius: 5px;
+    box-shadow: 0 22px 40px 0 #FF683830;
+    background-color: #FF7A50;
+    border: 0;
+    color: white;
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.two_btn_main>a {
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 400;
+    color: #363853;
+}
+
+.showcase_second {
+    width: 1212px;
+    height: 723px;
+    margin-top: 71.46px;
+    display: flex;
+    justify-content: space-between;
+    gap: 137px;
+    align-items: center;
+}
+
+.show_text>h2 {
+    font-family: Rubik;
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.second_main_p {
+    margin-top: 95px;
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 400;
+    color: #363853;
+}
+
+.main_second_span {
+    font-family: Rubik;
+    font-size: 36px;
+    font-weight: 500;
+    color: #FF7A50;
+}
+
+.second_main_btn {
+    margin-top: 141px;
+    width: 176px;
+    height: 58px;
+    border-radius: 30px 30px 1px 30px;
+    background-color: #FF7A50;
+    color: white;
+    box-shadow: 0px 22px 40px 0px #FF683830;
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 400;
+    border: 0;
+}
+
+.show_text_second {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+.show_text_second>h2 {
+    font-family: Rubik;
+    font-size: 36px;
+    font-weight: 500;
+}
+
+/* main {
+    padding: 44px 115px 0 156px;
+} */
+
+.card {
+    width: 361px;
+    height: 417px;
+}
+
+.card>img {
+    width: 361px;
+    height: 299px;
+    border-radius: 53px 5px 0px 0px;
+}
+
+.card>p {
+    padding: 22px 156px 14px 20px;
+    font-family: Rubik;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.card_down {
+    display: flex;
+    flex-direction: row;
+}
+
+.card_down>p {
+    font-family: Rubik;
+    font-size: 18px;
+    font-weight: 300;
+    color: #363853;
+    padding: 0 30px 22px 8px;
+}
+
+.btn_card {
+    width: 79px;
+    height: 33px;
+    background-color: #FF7A50;
+    box-shadow: 0px 5px 12px 0px #FF683830;
+    border: 0;
+    border-radius: 20px 20px 0px 20px;
+    box-shadow: 0px 5px 12px 0px #FF683830;
+}
+
+.card_down>img {
+    /* width: 22px;
+    height: 22px; */
+    padding: 0 0 26px 20px;
+}
+
+.main_start {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Rubik;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+    color: #000000;
+}
+
+.main_start>span {
+    font-family: Rubik;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+    color: #FF7A50;
+}
+
+.wrapper_card {
+    padding: 50px 115px 0 156px;
+    display: flex;
+    align-items: center;
+    gap: 43px;
+    flex-wrap: wrap;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20.17px;
+    padding: 155px 108.09px 0 157px;
+}
+
+.left_hero {
+    display: flex;
+    flex-direction: column;
+}
+
+.left_hero>h2 {
+    font-family: Rubik;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 50px;
+    text-align: left;
+    color: #363853;
+}
+
+.left_hero>h2>span {
+    font-family: Rubik;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 50px;
+    text-align: left;
+    color: #FF7A50;
+}
+
+.left_hero>p {
+    width: 538px;
+    padding-top: 30px;
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: #363853;
+}
+
+/* .hero_buttons>button {
+    width: 120px;
+    height: 40px;
+    top: 3164px;
+    left: 157px;
+    border-radius: 7px;
+    border: 1px;
+    display: flex;
+    gap: 7px;
+    background-color: #000000;
+    color: white;
+    border: 0;  
+}
+
+.hero_buttons>button>div {
+    display: flex;
+    flex-direction: column;
+}
+
+.download {
+    padding: 8.42px 0 2.99px 7.96px;
+    width: 69.15px;
+    display: flex;
+    flex-direction: row;
+    width: 69.15px;
+height: 6.37px;
+top: 8.42px;
+left: 35.65px;
+
+}
+
+.app_store {
+    padding: 0 0 6.51px 6.76px;
+    width: 75.08px;
+height: 15.72px;
+}
+.hero_buttons>button>img{
+    padding: 8.72px 0 9.5px 9.97px;
+} */
+.download_app {
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.last_section {
+    display: flex;
+    justify-content: center;
+}
+
+.email_form {
+    width: 81.73%;
+    height: 312px;
+    background-color: #FF7A50;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 72.45px;
+}
+
+.Subscribe_wrapper {
+    font-family: Rubik;
+    font-size: 28px;
+    font-weight: 100;
+    line-height: 47.4px;
+    text-align: center;
+    color: white;
+}
+
+.forms_wrapper {
+    width: 72%;
+    height: 78px;
+    background-color: white;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 9.75px 0 43.25px;
+}
+
+.forms_wrapper>input {
+    width: 207px;
+    height: 29px;
+    border: none;
+    outline: none;
+    font-family: Rubik;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.forms_wrapper>button {
+    width: 191px;
+    height: 58.5px;
+    background-color: #FF7A50;
+    border-radius: 30px;
+    border: none;
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    color: white;
+}
+
+.footer_nav {
+    padding: 103px 150px 68px 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right_foot>p {
+    font-family: Rubik;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    text-align: left;
+    color: #646464;
+}
+
+.left_foot>ul>li {
+    list-style: none;
+    text-decoration: none;
+    font-family: Rubik;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    color: #646464;
+}
+
+.left_foot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left_foot>ul {
+    display: flex;
+    flex-direction: row;
+    gap: 52px;
+}
